@@ -4,7 +4,7 @@ import math
 
 while True:
     try:
-        print("Enter a list of numbers separated by commas: ")
+        #print("Enter a list of numbers separated by commas: ")
         numbers = [float(value) for value in input().split(",")]
         sortedList = numbers.sort()
         listLength = len(numbers)
